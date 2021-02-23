@@ -10,8 +10,8 @@
   "repository": "https://github.com/zababurinsv/vuepress.git/system",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src -d ./core/1.0.0",
-    "remove": "del-cli --force  ./core/1.0.0",
+    "build": "vuepress build src -d ../docs/",
+    "remove": "del-cli --force  ../docs/",
     "git_docs": "cd /home/sergey/PhpstormProjects/system/docs/vuepress && git status && git add -A && git commit -am 'update' && git push"
   },
   "license": "MIT",
