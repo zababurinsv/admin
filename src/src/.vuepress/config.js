@@ -44,7 +44,7 @@ module.exports = {
       },
       {
         text: 'Docs',
-        link: '/index/core/1.0.0'
+        link: '/index/'
       }
     ],
     sidebar: {
