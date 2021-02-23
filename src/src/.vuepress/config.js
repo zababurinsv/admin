@@ -44,7 +44,7 @@ module.exports = {
       },
       {
         text: 'Docs',
-        link: '/index/'
+        link: 'https://zababurinsv.github.io/index/'
       }
     ],
     sidebar: {
