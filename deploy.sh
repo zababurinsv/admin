@@ -22,7 +22,7 @@ git commit -m 'deploy'
 
 git remote add Sergey https://github.com/zababurinsv/vuepress.git
 
-git config pull.rebase true
+git rebase --continue
 git pull https://github.com/zababurinsv/vuepress.git origin/master
 #git branch --set-upstream-to=Sergey origin/master
 #git push --set-upstream Sergey origin/master
