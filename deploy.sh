@@ -22,7 +22,7 @@ git commit -m 'deploy'
 
 git remote add Sergey https://github.com/zababurinsv/vuepress.git
 
-git push --set-upstream Sergey origin/master
+#git push --set-upstream Sergey origin/master
 # if you are deploying to https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
