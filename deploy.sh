@@ -25,5 +25,5 @@ git commit -m 'deploy'
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 #git remote Sergey https://github.com/zababurinsv/vuepress.git
 #git push -f git@github.com:zababurinsv/zababurinsv.github.io.git/vuepress origin/gh-pages
-git push --set-upstream https://github.com/zababurinsv/vuepress.git origin/gh-pages
+#git push --set-upstream https://github.com/zababurinsv/vuepress.git origin/gh-pages
 cd -
