@@ -1,0 +1,22 @@
+{
+  "name": "system",
+  "version": "0.0.1",
+  "description": "docs",
+  "main": "index.js",
+  "authors": {
+    "name": "Sergey",
+    "email": "s.zababurin.v@gmail.com"
+  },
+  "repository": "https://github.com/zababurinsv/vuepress.git/system",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "remove": "del-cli --force  ./src/.vuepress/dist",
+    "deploy": "npm run remove && cd .. && ./deploy.sh"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3",
+    "del-cli": "^3.0.1"
+  }
+}
