@@ -5,7 +5,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Monopoly Docs',
+  title: 'Admin',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
