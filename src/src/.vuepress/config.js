@@ -17,9 +17,20 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
+    ['meta', { "http-equiv": 'content-type', content: 'text/html; charset=utf-8' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['meta', { property: 'og:image:height', content: '240' }],
+    ['meta', { property: 'og:image:width', content: '537' }],
+    ['meta', { property: 'og:image', content: 'https://i.imgur.com/pSrPUkJ.jpg' }],
+    ['meta', { property: 'og:url', content: 'https://zababurinsv.github.io/ide-design/' }],
+    ['meta', { property: 'og:description', content: 'Admin' }],
+    ['meta', { property: 'og:title', content: 'Admin' }],
+    ['meta', { property: 'og:type', content: 'contract' }],
+    ['meta', { property: 'og:locale', content: 'ru_RU' }],
+    ['meta', { property: 'og:site_name', content: 'Admin' }],
+    ['link', { rel: 'icon', href: '/assets/favicon/favicon.ico',type: 'image/x-icon', }]
   ],
 
   /**

@@ -1,15 +1,3 @@
----
-sidebar: auto
----
-
-# Config
-
-## foo
-
-- Type: `string`
-- Default: `/`
-
-## bar
-
-- Type: `string`
-- Default: `/`
+::: details
+This is a details block, which does not work in IE / Edge
+:::

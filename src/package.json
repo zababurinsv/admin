@@ -12,7 +12,7 @@
     "dev": "vuepress dev src",
     "build": "vuepress build src -d ../docs/",
     "remove": "del-cli --force  ../docs/",
-    "deploy": "npm run build && cd /home/sergey/PhpstormProjects/system/docs/vuepress && git status && git add -A && git commit -am 'update' && git push"
+    "deploy": "npm run build && cd .. && git status && git add -A && git commit -am 'update' && git push"
   },
   "license": "MIT",
   "devDependencies": {
