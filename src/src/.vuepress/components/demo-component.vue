@@ -8,12 +8,11 @@
   export default {
     data() {
       return {
-        msg: 'ffff'
+        msg: ''
       }
     },
     beforeMount() {
       let frontmatter = this.$frontmatter
-      console.log(frontmatter)
       this.msg = frontmatter.component
     },
     methods: {
