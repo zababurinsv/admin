@@ -69,6 +69,12 @@ module.exports = {
           ]
         }
       ],
+      '/config/': [
+        {
+          title: 'Config',
+          children: ['']
+        }
+      ],
     }
   },
 
