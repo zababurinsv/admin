@@ -1,23 +1,25 @@
 <template>
   <p class="demo">
-    {{ title }}
+    {{ msg }}
   </p>
 </template>
 
 <script>
   export default {
-    props: {
-      title: ''
-    },
     data() {
-      console.log('dddddddddddddddddd', this)
       return {
-        msg: this.title
+        msg: 'ffff'
       }
+    },
+    beforeMount() {
+      let frontmatter = this.$frontmatter
+      console.log(frontmatter)
+      this.msg = frontmatter.component
     },
     methods: {
-      greet (event) {
-      }
+        greet (event) {
+
+       }
     }
   }
 </script>
