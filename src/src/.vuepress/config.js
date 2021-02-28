@@ -86,13 +86,13 @@ module.exports = {
       '/words/': [
         {
           title: 'Words',
-          children: ['','second_class','third_class']
+          children: ['','english']
         }
       ],
       '/city/': [
         {
           title: 'City',
-          children: ['','illinois', 'north-carolina']
+          children: ['','illinois', 'north-carolina', 'vermont', 'pennsylvania', 'kentucky']
         }
       ],
     }
