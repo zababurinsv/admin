@@ -58,6 +58,14 @@ module.exports = {
         link: '/words/',
       },
       {
+        text: 'Sql',
+        link: '/sql/',
+      },
+      {
+        text: 'Python',
+        link: '/python/',
+      },
+      {
         text: 'Config',
         link: '/config/'
       },
@@ -93,6 +101,18 @@ module.exports = {
         {
           title: 'City',
           children: ['','illinois', 'north-carolina', 'vermont', 'pennsylvania', 'kentucky']
+        }
+      ],
+      '/sql/': [
+        {
+          title: 'SQL',
+          children: ['']
+        }
+      ],
+      '/python/': [
+        {
+          title: 'Python',
+          children: ['']
         }
       ],
     }
