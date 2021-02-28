@@ -50,6 +50,14 @@ module.exports = {
         link: '/guide/',
       },
       {
+        text: 'City',
+        link: '/city/',
+      },
+      {
+        text: 'Words',
+        link: '/words/',
+      },
+      {
         text: 'Config',
         link: '/config/'
       },
@@ -73,6 +81,18 @@ module.exports = {
         {
           title: 'Config',
           children: ['']
+        }
+      ],
+      '/words/': [
+        {
+          title: 'Words',
+          children: ['','second_class']
+        }
+      ],
+      '/city/': [
+        {
+          title: 'City',
+          children: ['','illinois', 'north-carolina']
         }
       ],
     }

@@ -3,6 +3,7 @@ component: Blogging with VuePress
 ---
 
 # Words
+
 * Main
     * [Документация][vue]
     * [jsdoc](https://devdocs.io/jsdoc/howto-es2015-modules)
