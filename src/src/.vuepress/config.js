@@ -1,7 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
-  base:"/vuepress/",
+  base:"/admin/",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -70,8 +70,8 @@ module.exports = {
         link: '/config/'
       },
       {
-        text: 'Docs',
-        link: 'https://zababurinsv.github.io/index/'
+        text: 'Source',
+        link: 'https://zababurinsv.github.io/src/'
       }
     ],
     sidebar: {
