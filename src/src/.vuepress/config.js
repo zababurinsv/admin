@@ -86,7 +86,7 @@ module.exports = {
       '/words/': [
         {
           title: 'Words',
-          children: ['','second_class']
+          children: ['','second_class','third_class']
         }
       ],
       '/city/': [
