@@ -10,5 +10,5 @@ export default ({
   router, // the router instance for the app
   siteData // site metadata
 }) => {
- console.log('dddddddddddddddd', document)
+
 }

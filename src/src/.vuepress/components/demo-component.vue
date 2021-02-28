@@ -1,14 +1,22 @@
 <template>
   <p class="demo">
-    {{ msg }}
+    {{ title }}
   </p>
 </template>
 
 <script>
   export default {
+    props: {
+      title: ''
+    },
     data() {
+      console.log('dddddddddddddddddd', this)
       return {
-        msg: 'Hello this is <demo-component>'
+        msg: this.title
+      }
+    },
+    methods: {
+      greet (event) {
       }
     }
   }
