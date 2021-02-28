@@ -50,8 +50,8 @@ module.exports = {
         link: '/guide/',
       },
       {
-        text: 'City',
-        link: '/city/',
+        text: 'Monopoly',
+        link: '/monopoly/',
       },
       {
         text: 'Words',
@@ -97,14 +97,18 @@ module.exports = {
           children: ['','english']
         }
       ],
-      '/city/': [
+      '/monopoly/': [
         {
           title: 'City',
-          children: ['','illinois', 'north-carolina', 'vermont', 'pennsylvania', 'kentucky']
+          children: ['city__new-york','city__illinois', 'city__north-carolina', 'city__vermont', 'city__pennsylvania', 'city__kentucky']
         },
         {
           title: 'Railway',
-          children: ['railway_north','railway_east','railway_south','railway_west' ]
+          children: ['railway__north','railway__east','railway__south','railway__west' ]
+        },
+        {
+          title: 'Cards',
+          children: ['cards__chance','cards__comunity']
         }
       ],
       '/sql/': [
