@@ -58,16 +58,12 @@ module.exports = {
         link: '/words/',
       },
       {
-        text: 'Sql',
-        link: '/sql/',
+        text: 'Lang',
+        link: '/lang/',
       },
       {
-        text: 'Python',
-        link: '/python/',
-      },
-      {
-        text: 'Config',
-        link: '/config/'
+        text: 'API',
+        link: '/api/'
       },
       {
         text: 'Source',
@@ -85,7 +81,7 @@ module.exports = {
           ]
         }
       ],
-      '/config/': [
+      '/api/': [
         {
           title: 'Config',
           children: ['']
@@ -119,18 +115,12 @@ module.exports = {
           children: ['cards__chance','cards__comunity']
         }
       ],
-      '/sql/': [
+      '/lang/': [
         {
-          title: 'SQL',
-          children: ['']
+          title: 'Lang',
+          children: ['lang__python','lang__sql']
         }
-      ],
-      '/python/': [
-        {
-          title: 'Python',
-          children: ['']
-        }
-      ],
+      ]
     }
   },
 
