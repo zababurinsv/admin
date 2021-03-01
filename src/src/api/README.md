@@ -1,9 +1,7 @@
 ---
 component: Blogging with VuePress
 ---
-
-# Words
-
+# namespace
 * Main
     * [Документация][vue]
     * [jsdoc](https://devdocs.io/jsdoc/howto-es2015-modules)
@@ -21,6 +19,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sodales ut est eu
 <a name="words.module_App..words"></a>
 
 ### App~words : <code>object</code>
-<demo-component />
+<req />
 
 **Kind**: inner namespace of [<code>App</code>](#words.module_App)  

@@ -83,7 +83,7 @@ module.exports = {
       ],
       '/api/': [
         {
-          title: 'Config',
+          title: 'api',
           children: ['']
         }
       ],
