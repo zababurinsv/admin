@@ -53,9 +53,10 @@
   .app__words {
     display: flex;
     flex-direction: column;
-    background: silver;
+    background: #c5c1c7;
     margin-top: 2vw;
     margin-bottom: 2vw;
+    border-radius: 0.3vw;
   }
   .button_default {
     box-sizing: border-box;
@@ -63,5 +64,8 @@
     margin: 1vw;
     cursor: pointer;
     border-radius: 0.3vw;
+  }
+  .button_default:hover {
+    color: #37b637;
   }
 </style>
