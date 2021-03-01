@@ -100,7 +100,15 @@ module.exports = {
       '/monopoly/': [
         {
           title: 'City',
-          children: ['city__new-york','city__illinois', 'city__north-carolina', 'city__vermont', 'city__pennsylvania', 'city__kentucky']
+          children: [
+            'city__new-york',
+            'city__illinois',
+            'city__north-carolina',
+            'city__vermont',
+            'city__pennsylvania',
+            'city__kentucky',
+            'city__indiana',
+            'city__virginia',]
         },
         {
           title: 'Railway',
@@ -132,5 +140,11 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-  ]
+  ],
+  markdown: {
+    linkify: true,
+    extendMarkdown: md => {
+      md.use(require('markdown-it-imsize'));
+    },
+  },
 }
