@@ -34,17 +34,33 @@
       this.msg = frontmatter.component
     },
     methods: {
-      move (event) {
-        console.log('event', event)
-      },
-      del (event) {
-          console.log('event', event)
+      set (event) {
+        axios.get(`${location.hostname}`).then((src)=>{
+          console.log('event:', src.data.message)
+        }).catch((e)=>{
+          console.log('error', e)
+        })
       },
       get (event) {
-        console.log('event', event)
+        axios.get(`${location.hostname}`).then((src)=>{
+          console.log('event:', src.data.message)
+        }).catch((e)=>{
+          console.log('error', e)
+        })
       },
-      set (event) {
-        console.log('event', event)
+      del (event) {
+        axios.get(`${location.hostname}`).then((src)=>{
+          console.log('event:', src.data.message)
+        }).catch((e)=>{
+          console.log('error', e)
+        })
+      },
+      move (event) {
+        axios.get(`${location.hostname}`).then((src)=>{
+          console.log('event:', src.data.message)
+        }).catch((e)=>{
+          console.log('error', e)
+        })
       }
     }
   }
