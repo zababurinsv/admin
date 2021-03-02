@@ -3,11 +3,9 @@
     <p class="demo">
       {{ msg }}
     </p>
-    <manager-board></manager-board>
+    <manager-board preset="index"></manager-board>
   </div>
-  <script>
-    console.log('ddddddddddddddddddddddd')
-  </script>
+</template>
 <script>
 export default {
   data() {

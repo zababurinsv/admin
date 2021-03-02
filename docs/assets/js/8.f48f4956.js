@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{358:function(s,t,n){"use strict";n.r(t);var e=n(15),i=Object(e.a)({},(function(){var s=this.$createElement,t=this._self._c||s;return t("div",[t("p",{staticClass:"demo"},[this._v("\n      "+this._s(this.msg)+"\n    ")]),this._v(" "),t("manager-board")],1)}),[],!1,null,null,null);t.default=i.exports}}]);
