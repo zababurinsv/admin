@@ -114,6 +114,10 @@ module.exports = {
         {
           title: 'Cards',
           children: ['cards__chance','cards__comunity']
+        },
+        {
+          title: 'Dice',
+          children: ['dice']
         }
       ],
       '/lang/': [
@@ -130,12 +134,26 @@ module.exports = {
    */
   plugins: [
     '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
+    '@vuepress/plugin-medium-zoom'
   ],
   markdown: {
     linkify: true,
     extendMarkdown: md => {
       md.use(require('markdown-it-imsize'));
+      //    '@silvanite/markdown-classes'
+      // [
+      //   'bullet_list_open',
+      //   'heading_open',
+      //   'image',
+      //   'link_open',
+      //   'paragraph_open',
+      // ].map((rule) => {
+      //   md.renderer.rules[rule] = (tokens, idx, options, env, slf) => {
+      //     if (!tokens[idx].attrs) tokens[idx].attrs = []
+      //     tokens[idx].attrs.push([ 'class', `md-${rule}` ])
+      //     return slf.renderToken(tokens, idx, options)
+      //   }
+      // });
     },
   },
 }

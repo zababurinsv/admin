@@ -16,6 +16,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@silvanite/vuepress-plugin-markdown-classes": "^1.0.2",
     "@vuepress/plugin-back-to-top": "^1.8.2",
     "@vuepress/plugin-medium-zoom": "^1.8.2",
     "del-cli": "^3.0.1",

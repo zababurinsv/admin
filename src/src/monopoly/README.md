@@ -1,1 +1,3 @@
 # Monopoly
+
+<monopoly/>
