@@ -98,14 +98,14 @@ module.exports = {
         {
           title: 'City',
           children: [
-            'city__new-york',
-            'city__illinois',
-            'city__north-carolina',
-            'city__vermont',
-            'city__pennsylvania',
-            'city__kentucky',
-            'city__indiana',
-            'city__virginia',]
+            'gray',
+            'cyan',
+            'purple',
+            'orange',
+            'red',
+            'yellow',
+            'green',
+            'blue',]
         },
         {
           title: 'Railway',
