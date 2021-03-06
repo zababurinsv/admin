@@ -3,6 +3,7 @@
  *
  * https://v1.vuepress.vuejs.org/guide/basic-config.html#app-level-enhancements
  */
+import VueSSE from 'vue-sse';
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -10,5 +11,5 @@ export default ({
   router, // the router instance for the app
   siteData // site metadata
 }) => {
-
+  Vue.use(VueSSE);
 }

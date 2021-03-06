@@ -85,6 +85,8 @@ module.exports = {
       '/api/': [
         {
           title: 'api',
+          collapsable: true,
+          sidebarDepth: 2,
           children: ['']
         }
       ],

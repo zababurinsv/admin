@@ -23,11 +23,71 @@
 </template>
 
 <script>
+  let msgServer;
   export default {
     data() {
       return {
         msg: ''
       }
+    },
+    mounted() {
+      const evtSource = new EventSource("http://localhost:9876/events", { withCredentials: false } )
+
+      evtSource.onmessage = function(event) {
+        console.log('~~~~~~~~~~~~~~~~~', event.data)
+      }
+      evtSource.addEventListener("ping", function(event) {
+        console.log('~~~~~~~~~ping~~~~~~~~', event.data)
+      });
+    //   (async () => {
+    //     try {
+    //       console.log('~~~~~~~~~~~~~~', window, document)
+          // Store SSE object at a higher scope
+          // msgServer = await Vue.$sse('http://localhost:9876/events', { format: 'json' }); // omit for no format pre-processing
+
+          // Catch any errors (ie. lost connections, etc.)
+          // msgServer.onError(e => {
+          //   console.error('lost connection; giving up!', e);
+
+            // If you don't want SSE to automatically reconnect (if possible),
+            // then uncomment the following line:
+            // msgServer.close();
+          // });
+
+          // Listen for messages without a specified event
+          // msgServer.subscribe('', (data, rawEvent) => {
+          //   console.warn('Received a message w/o an event!', data);
+          // });
+
+          // Listen for messages based on their event (in this case, "chat")
+          // msgServer.subscribe('chat', (message, rawEvent) => {
+          //   this.messages.push(message);
+          // });
+
+          // Unsubscribes from event-less messages after 7 seconds
+          // setTimeout(() => {
+          //   msgServer.unsubscribe('');
+          //
+          //   console.log('Stopped listening to event-less messages!');
+          // }, 7000);
+
+          // Unsubscribes from chat messages after 7 seconds
+          // setTimeout(() => {
+          //   msgServer.unsubscribe('chat');
+
+            // console.log('Stopped listening to chat messages');
+          // }, 14000);
+        // } catch (err) {
+          // When this error is caught, it means the initial connection to the
+          // events server failed.  No automatic attempts to reconnect will be made.
+          // console.error('Failed to connect to server', err);
+        // }
+      // })();
+    },
+    beforeDestroy() {
+      // Make sure to close the connection with the events server
+      // when the component is destroyed, or we'll have ghost connections!
+      msgServer.close();
     },
     beforeMount() {
       let frontmatter = this.$frontmatter

@@ -22,5 +22,8 @@
     "del-cli": "^3.0.1",
     "markdown-it-imsize": "^2.0.1",
     "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "vue-sse": "^2.0.2"
   }
 }
