@@ -24,7 +24,7 @@ module.exports = {
     ['meta', { property: 'og:image:height', content: '240' }],
     ['meta', { property: 'og:image:width', content: '537' }],
     ['meta', { property: 'og:image', content: 'https://i.imgur.com/pSrPUkJ.jpg' }],
-    ['meta', { property: 'og:url', content: 'https://zababurinsv.github.io/ide-design/' }],
+    ['meta', { property: 'og:url', content: 'https://zababurinsv.github.io/design/' }],
     ['meta', { property: 'og:description', content: 'Admin' }],
     ['meta', { property: 'og:title', content: 'Admin' }],
     ['meta', { property: 'og:type', content: 'contract' }],

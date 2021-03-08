@@ -1,6 +1,6 @@
 # Comunity Chests
 
-![An image](/images/monopoly/board/default/images/community-chest.png =200x200)
+![An image](/images/monopoly/board/default/images/community-chest.png =400x400)
 
 ## Comunity 1
 
