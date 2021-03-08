@@ -75,6 +75,14 @@ module.exports = {
         link: '/moderators/',
       },
       {
+        text: 'Biosphere',
+        link: 'https://zababurinsv.github.io/Michurin/'
+      },
+      {
+        text: 'Universe',
+        link: 'https://zababurinsv.github.io/markdown/'
+      },
+      {
         text: 'Source',
         link: 'https://zababurinsv.github.io/src/'
       }
@@ -93,6 +101,22 @@ module.exports = {
       '/api/': [
         {
           title: 'api',
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ['']
+        }
+      ],
+      '/planets/': [
+        {
+          title: 'Planets',
+          collapsable: true,
+          sidebarDepth: 2,
+          children: ['']
+        }
+      ],
+      '/biosphere/': [
+        {
+          title: 'Biosphere',
           collapsable: true,
           sidebarDepth: 2,
           children: ['']
