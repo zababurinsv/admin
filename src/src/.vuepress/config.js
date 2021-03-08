@@ -67,6 +67,14 @@ module.exports = {
         link: '/api/'
       },
       {
+        text: 'RSS',
+        link: '/rss/',
+      },
+      {
+        text: 'moderators',
+        link: '/moderators/',
+      },
+      {
         text: 'Source',
         link: 'https://zababurinsv.github.io/src/'
       }
@@ -94,6 +102,18 @@ module.exports = {
         {
           title: 'Words',
           children: ['russian','english']
+        }
+      ],
+      '/rss/': [
+        {
+          title: 'RSS',
+          children: ['']
+        }
+      ],
+      '/moderators/': [
+        {
+          title: 'Moderators',
+          children: ['']
         }
       ],
       '/monopoly/': [
