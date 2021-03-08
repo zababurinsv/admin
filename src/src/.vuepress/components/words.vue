@@ -12,7 +12,7 @@ export default {
     script.src = '/static/html/components/page-external/page-external.mjs'
     // let url = (location.hostname === 'localhost')?'http://localhost:5000':'https://tunnel-reverse.herokuapp.com'
     let url = 'https://tunnel-reverse.herokuapp.com'
-    this.$el.insertAdjacentHTML('beforeend',`<page-external data-url=${url} data-height=100></page-external>`)
+    this.$el.insertAdjacentHTML('beforeend',`<page-external data-url=${url} data-height=64></page-external>`)
     this.$el.appendChild(script)
   },
   methods: {
