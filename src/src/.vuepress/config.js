@@ -31,7 +31,9 @@ module.exports = {
     ['meta', { property: 'og:locale', content: 'ru_RU' }],
     ['meta', { property: 'og:site_name', content: 'Admin' }],
     ['link', { rel: 'icon', href: 'https://zababurinsv.github.io/favicon.ico',type: 'image/x-icon', }],
-    ['script', { src: 'https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js' }]
+    ['script', { src: 'https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js' }],
+    ['script', { src: '/static/html/components/component_modules/cell-index/jason.mjs' }],
+    ['script', { src: '/static/html/components/component_modules/cell-index/st.mjs' }]
   ],
 
   /**
