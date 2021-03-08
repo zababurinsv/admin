@@ -68,7 +68,7 @@ module.exports = {
         link: '/rss/',
       },
       {
-        text: 'moderators',
+        text: 'Moderators',
         link: '/moderators/',
       },
       {

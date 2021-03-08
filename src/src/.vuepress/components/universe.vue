@@ -50,5 +50,6 @@ export default {
 <style>
 .s__universe {
   display: flex;
+  height: 120vh;
 }
 </style>
