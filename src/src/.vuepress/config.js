@@ -5,7 +5,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Admin',
+  title: 'C 8 Марта !!!',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -60,10 +60,6 @@ module.exports = {
         link: '/words/',
       },
       {
-        text: 'Lang',
-        link: '/lang/',
-      },
-      {
         text: 'API',
         link: '/api/'
       },
@@ -76,12 +72,12 @@ module.exports = {
         link: '/moderators/',
       },
       {
-        text: 'Biosphere',
-        link: 'https://zababurinsv.github.io/Michurin/'
+        text: 'Universe',
+        link: '/universe/'
       },
       {
-        text: 'Universe',
-        link: 'https://zababurinsv.github.io/markdown/'
+        text: 'Biosphere',
+        link: 'https://zababurinsv.github.io/Michurin/'
       },
       {
         text: 'Source',
@@ -104,12 +100,12 @@ module.exports = {
           title: 'api',
           collapsable: true,
           sidebarDepth: 2,
-          children: ['']
+          children: ['','ssr']
         }
       ],
-      '/planets/': [
+      '/universe/': [
         {
-          title: 'Planets',
+          title: 'Universe',
           collapsable: true,
           sidebarDepth: 2,
           children: ['']
@@ -187,20 +183,6 @@ module.exports = {
     linkify: true,
     extendMarkdown: md => {
       md.use(require('markdown-it-imsize'));
-      //    '@silvanite/markdown-classes'
-      // [
-      //   'bullet_list_open',
-      //   'heading_open',
-      //   'image',
-      //   'link_open',
-      //   'paragraph_open',
-      // ].map((rule) => {
-      //   md.renderer.rules[rule] = (tokens, idx, options, env, slf) => {
-      //     if (!tokens[idx].attrs) tokens[idx].attrs = []
-      //     tokens[idx].attrs.push([ 'class', `md-${rule}` ])
-      //     return slf.renderToken(tokens, idx, options)
-      //   }
-      // });
     },
   },
 }
