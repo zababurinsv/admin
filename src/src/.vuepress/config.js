@@ -76,12 +76,12 @@ module.exports = {
         link: '/universe/'
       },
       {
-        text: 'Biosphere',
-        link: 'https://zababurinsv.github.io/Michurin/'
+        text: 'Source',
+        link: '/source/'
       },
       {
-        text: 'Source',
-        link: 'https://zababurinsv.github.io/src/'
+        text: 'Biosphere',
+        link: 'https://zababurinsv.github.io/Michurin/'
       }
     ],
     sidebar: {
@@ -137,6 +137,12 @@ module.exports = {
           children: ['']
         }
       ],
+      '/source/': [
+        {
+          title: 'Source',
+          children: ['','lang__python','lang__sql']
+        }
+      ],
       '/monopoly/': [
         {
           title: 'City',
@@ -166,7 +172,7 @@ module.exports = {
       '/lang/': [
         {
           title: 'Lang',
-          children: ['lang__python','lang__sql']
+          children: ['']
         }
       ]
     }
