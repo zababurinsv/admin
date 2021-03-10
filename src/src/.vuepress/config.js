@@ -140,7 +140,7 @@ module.exports = {
       '/source/': [
         {
           title: 'Source',
-          children: ['','lang__python','lang__sql']
+          children: ['']
         }
       ],
       '/monopoly/': [
