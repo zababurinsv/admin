@@ -61,65 +61,11 @@
 * [Установка](https://docs.microsoft.com/ru-ru/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver15)
 
 
-Получим ли мы единственную запись таблицу Users с помощью запроса?
-`нет`
-
-
-
-Какие опции могут быть использованы в операторах выборки данных?  
-ORDER BY  
-WHERE  
-HAVING  
-FROM  
-GROUP BY  
-
-
-`SELECT	* FROM	product	WHERE	price	>= 100 AND price <= 200`
-
-
-UPPER  
-SUBSTRING  
-LOWER   
-
-SELECT
-
-
-MAX  
-COUNT  
-AVG  
-SUM  
-
-Список студентов-двоечников
-
-
-
-Все перечисленные ключевые слова относятся к DML (Язык манипуляции данными): INSERT, CREATE, DELETE, UPDATE
-
-да
-
-
-* https://exam.sberbank-school.ru/atdata/Report/a98e37a7-ef91-42f5-be34-67c93eb92a43
-
-https://exam.sberbank-school.ru/atdata/Report/75ab90ed-3d4d-4fac-b54c-fda0ce1ff475
-
-https://exam.sberbank-school.ru/atdata/Report/3fdd06fa-e521-4e59-a76d-f1f07bcf1c96
-
-https://exam.sberbank-school.ru/atdata/Report/5f7073f1-513d-4fb3-84df-e290299617d6
-
-```
-#include <stdio.h>
-int
-main(void)
-{
-  int x[10]; /* резервируем место для 10 целочисленных элементов */
-  int i;
-  for(i = 0; i < 10; ++i)
-    x[i] = i; /* заполняем массив */
-  for(i = 0; i < 10; ++i)
-    printf("%d ", x[i]); /* выводим  поочередно элементы массива на экран */
-  return 0;
-}
-```
+### Вопросы
+* [task 1](https://exam.sberbank-school.ru/atdata/Report/a98e37a7-ef91-42f5-be34-67c93eb92a43)
+* [task 1](https://exam.sberbank-school.ru/atdata/Report/75ab90ed-3d4d-4fac-b54c-fda0ce1ff475)
+* [task 1](https://exam.sberbank-school.ru/atdata/Report/3fdd06fa-e521-4e59-a76d-f1f07bcf1c96)
+* [task 1](https://exam.sberbank-school.ru/atdata/Report/5f7073f1-513d-4fb3-84df-e290299617d6)
 
 # Пузырьковая сортировка
 ```
@@ -190,55 +136,18 @@ for i in range(len(bucket_arr)):
 print("Конечный массив")
 print(arr_sorted)
 ```
+#### Task 2
+* [task 2](https://exam.sberbank-school.ru/atdata/Report/c98ab3cf-3720-4248-b078-170fe977ac62)
+* [task 2](https://exam.sberbank-school.ru/atdata/Report/ebaf3ce2-48cb-4738-8e4d-9c33fd05c378)
+* [task 2](https://exam.sberbank-school.ru/atdata/Report/d4d9706d-e991-4826-ab02-d2ed4688d9b6)
+* [task 2](https://exam.sberbank-school.ru/atdata/Report/b7453404-04f0-4935-9e1d-dcda3f1e1265)
+* [task 2](https://exam.sberbank-school.ru/atdata/Report/ebaf3ce2-48cb-4738-8e4d-9c33fd05c378)
 
-Распределяет данные по небольшим контейнерам, сравнивает эти контейнеры между собой, а затем соединяет в нужном порядке   
-
-Элементы, соединенные в структуру для более простого и понятного доступа к ним  
-
-* https://exam.sberbank-school.ru/atdata/Report/c98ab3cf-3720-4248-b078-170fe977ac62
-* https://exam.sberbank-school.ru/atdata/Report/ebaf3ce2-48cb-4738-8e4d-9c33fd05c378
-* https://exam.sberbank-school.ru/atdata/Report/d4d9706d-e991-4826-ab02-d2ed4688d9b6
-* https://exam.sberbank-school.ru/atdata/Report/b7453404-04f0-4935-9e1d-dcda3f1e1265
-* https://exam.sberbank-school.ru/atdata/Report/ebaf3ce2-48cb-4738-8e4d-9c33fd05c378
-
-
-
-* https://exam.sberbank-school.ru/atdata/Report/40cb13e1-7caf-496f-bcf8-1de80a14631c
-* https://exam.sberbank-school.ru/atdata/Report/1162d2cf-4bc0-465c-89dc-9588a4f64839
+#### Task 3
+* [task 3](https://exam.sberbank-school.ru/atdata/Report/40cb13e1-7caf-496f-bcf8-1de80a14631c)
+* [task 3](https://exam.sberbank-school.ru/atdata/Report/1162d2cf-4bc0-465c-89dc-9588a4f64839)
 
 
-```
-for i in range(3):
-    if i < 1:
-        print(i)
-    else:
-        print(i)
-        break
-```
-
-```
-a = [1, 2, 3]
-b = [4, 5, 6]
-c = a + b
-print(len(c))
-```
-
-```
-a=""
-for i in range(0,5):
-    a = i
-    print(a)
-```
-
-```
-x = 'From marquard@uct.ac.za'
-print(x[14:17])
-```
-
-```
-print("оценка за тест" + 5)
-```
-
-
-* https://exam.sberbank-school.ru/atdata/Report/f3ce8524-b6c1-43ba-9802-87cd6c563f06
-* https://exam.sberbank-school.ru/atdata/Report/f27e9bb4-0b17-4ed7-8f1a-63432dda14de
+#### Task 4
+* [task 4](https://exam.sberbank-school.ru/atdata/Report/f3ce8524-b6c1-43ba-9802-87cd6c563f06)
+* [task 4](https://exam.sberbank-school.ru/atdata/Report/f27e9bb4-0b17-4ed7-8f1a-63432dda14de)
