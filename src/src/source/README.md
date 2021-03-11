@@ -1,12 +1,14 @@
 # Source
 
 [[toc]]
-## [code](https://zababurinsv.github.io/src/)
+## Src
+* [source](https://zababurinsv.github.io/src/)
 
-### Compiler
-* [c](https://www.onlinegdb.com/online_c_compiler)
-  
-## [Вводный курс](https://partner.sberbank-school.ru/programs/11904/item/459723)
+## Environment
+* [c_compiler](https://www.onlinegdb.com/online_c_compiler)
+* [py_anaconda](https://www.onlinegdb.com/online_c_compiler)
+* [sql_install](https://docs.microsoft.com/ru-ru/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver15)
+
 ### Вывод в консоль сообщения "Hello, World!"
         
     #include <stdio.h> // STandardInputOutput — стандартная библиотека ввода вывода.
@@ -50,22 +52,7 @@
     }
     return 0;
     }
-### Тесты
-#### Успешно
-* [Основы Программирования Итоговый тест](https://exam.sberbank-school.ru/atdata/Report/b2c45b7c-690b-4162-bb6a-549829f42d82)
-#### Неуспешно
-* [Основы Программирования Итоговый тест](https://exam.sberbank-school.ru/atdata/Report/b2c45b7c-690b-4162-bb6a-549829f42d82)
 
-
-## [SQL](https://partner.sberbank-school.ru/programs/11906/item/460433)
-* [Установка](https://docs.microsoft.com/ru-ru/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver15)
-
-
-### Вопросы
-* [task 1](https://exam.sberbank-school.ru/atdata/Report/a98e37a7-ef91-42f5-be34-67c93eb92a43)
-* [task 1](https://exam.sberbank-school.ru/atdata/Report/75ab90ed-3d4d-4fac-b54c-fda0ce1ff475)
-* [task 1](https://exam.sberbank-school.ru/atdata/Report/3fdd06fa-e521-4e59-a76d-f1f07bcf1c96)
-* [task 1](https://exam.sberbank-school.ru/atdata/Report/5f7073f1-513d-4fb3-84df-e290299617d6)
 
 ### Пузырьковая сортировка
 ```
@@ -136,18 +123,10 @@ for i in range(len(bucket_arr)):
 print("Конечный массив")
 print(arr_sorted)
 ```
-#### Task 2
-* [task 2](https://exam.sberbank-school.ru/atdata/Report/c98ab3cf-3720-4248-b078-170fe977ac62)
-* [task 2](https://exam.sberbank-school.ru/atdata/Report/ebaf3ce2-48cb-4738-8e4d-9c33fd05c378)
-* [task 2](https://exam.sberbank-school.ru/atdata/Report/d4d9706d-e991-4826-ab02-d2ed4688d9b6)
-* [task 2](https://exam.sberbank-school.ru/atdata/Report/b7453404-04f0-4935-9e1d-dcda3f1e1265)
-* [task 2](https://exam.sberbank-school.ru/atdata/Report/ebaf3ce2-48cb-4738-8e4d-9c33fd05c378)
 
-#### Task 3
-* [task 3](https://exam.sberbank-school.ru/atdata/Report/40cb13e1-7caf-496f-bcf8-1de80a14631c)
-* [task 3](https://exam.sberbank-school.ru/atdata/Report/1162d2cf-4bc0-465c-89dc-9588a4f64839)
-
-
-#### Task 4
-* [task 4](https://exam.sberbank-school.ru/atdata/Report/f3ce8524-b6c1-43ba-9802-87cd6c563f06)
-* [task 4](https://exam.sberbank-school.ru/atdata/Report/f27e9bb4-0b17-4ed7-8f1a-63432dda14de)
+## Task
+* [0](https://exam.sberbank-school.ru/atdata/Report/b2c45b7c-690b-4162-bb6a-549829f42d82)
+* [1](https://exam.sberbank-school.ru/atdata/Report/5f7073f1-513d-4fb3-84df-e290299617d6)
+* [2](https://exam.sberbank-school.ru/atdata/Report/ebaf3ce2-48cb-4738-8e4d-9c33fd05c378)
+* [3](https://exam.sberbank-school.ru/atdata/Report/40cb13e1-7caf-496f-bcf8-1de80a14631c)
+* [4](https://exam.sberbank-school.ru/atdata/Report/f27e9bb4-0b17-4ed7-8f1a-63432dda14de)

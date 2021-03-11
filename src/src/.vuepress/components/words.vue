@@ -51,7 +51,4 @@ export default {
 .s__words {
   display: flex;
 }
-img {
-  width: 100%;
-}
 </style>
