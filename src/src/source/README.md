@@ -67,7 +67,7 @@
 * [task 1](https://exam.sberbank-school.ru/atdata/Report/3fdd06fa-e521-4e59-a76d-f1f07bcf1c96)
 * [task 1](https://exam.sberbank-school.ru/atdata/Report/5f7073f1-513d-4fb3-84df-e290299617d6)
 
-# Пузырьковая сортировка
+### Пузырьковая сортировка
 ```
 arr = [-2, 45, 0, 11, -9]
 
@@ -93,7 +93,7 @@ print("Конечный массив: ")
 print(arr)
 ```
 
-## Сортировка по ведрам
+### Сортировка по ведрам
 ```
 arr = [11, 9, 21, 8, 17, 19, 13, 1, 24, 12]
 arr_sorted = []
