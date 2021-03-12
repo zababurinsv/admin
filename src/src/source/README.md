@@ -7,7 +7,17 @@
 ## Environment
 * [c_compiler](https://www.onlinegdb.com/online_c_compiler)
 * [py_anaconda](https://www.onlinegdb.com/online_c_compiler)
+  * [jupiter_install](https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-20-04-ru)
+  * [jupiter](https://jupyter.readthedocs.io/en/latest/running.html)
+      * jupyter notebook --notebook-dir="/home/sergey/PhpstormProjects/system/py/notebooks/"
+        `Blocking request with non-local 'Host'   
+         web.com (web.com). If the notebook should be   
+         accessible at that name, set NotebookApp.allow_remote_access 
+         to disable the check.`
+      * jupyter notebook --notebook-dir="/home/sergey/PhpstormProjects/system/py/notebooks/"
+* [py_teaches_1](https://partner.sberbank-school.ru/programs/11907/item/460859)
 * [sql_install](https://docs.microsoft.com/ru-ru/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver15)
+* [pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html)
 
 ### Вывод в консоль сообщения "Hello, World!"
         
