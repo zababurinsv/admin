@@ -1,26 +1,29 @@
 # Source
 
 [[toc]]
+
 ## Src
+
 * [source](https://zababurinsv.github.io/src/)
 
 ## Environment
+
 * [c_compiler](https://www.onlinegdb.com/online_c_compiler)
 * [py_anaconda](https://www.onlinegdb.com/online_c_compiler)
   * [jupiter_install](https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-20-04-ru)
   * [jupiter](https://jupyter.readthedocs.io/en/latest/running.html)
-      * jupyter notebook --notebook-dir="/home/sergey/PhpstormProjects/system/py/notebooks/"
-        `Blocking request with non-local 'Host'   
-         web.com (web.com). If the notebook should be   
-         accessible at that name, set NotebookApp.allow_remote_access 
+    * jupyter notebook --notebook-dir="/home/sergey/PhpstormProjects/system/py/notebooks/"
+        `Blocking request with non-local 'Host'
+         web.com (web.com). If the notebook should be
+         accessible at that name, set NotebookApp.allow_remote_access
          to disable the check.`
-      * jupyter notebook --notebook-dir="/home/sergey/PhpstormProjects/system/py/notebooks/"
+    * jupyter notebook --notebook-dir="/home/sergey/PhpstormProjects/system/py/notebooks/"
 * [py_teaches_1](https://partner.sberbank-school.ru/programs/11907/item/460859)
 * [sql_install](https://docs.microsoft.com/ru-ru/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver15)
 * [pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html)
 
 ### Вывод в консоль сообщения "Hello, World!"
-        
+
     #include <stdio.h> // STandardInputOutput — стандартная библиотека ввода вывода.
     #include <stdlib.h> // STandardLIBrary — cтандартная библиотека для Си.
     int main(/* Место для аргумента, которого может и не быть*/) // Главная функция программы, программа ВСЕГДА "входит" через main, главная точка входа.
@@ -29,9 +32,9 @@
     //функция printf выводит любые символы, поставленные между кавычек внутри круглых скобок. Круглые скобки — хранилище аргумента. Аргументом является все, что находится между ними.
     return 0; //возвращаемое значение функции. Main всегда возвращает в точку выхода функции.
     } // возвращаемое число отображает место ее выхода, что помогает понять, каким был результат работы.
-    
-### Вывод значения переменной в консоль  
-        
+
+### Вывод значения переменной в консоль
+
     #include <stdio.h> // STandardInputOutput — стандартная библиотека ввода вывода.
     #include <stdlib.h> // STandardLIBrary — стандартная библиотека для Си.
     int main(/* Место для аргумента, которого может и не быть*/) // Главная функция программы, программа ВСЕГДА "входит" через main, главная точка входа
@@ -47,9 +50,9 @@
     printf("a=%d",a);//вывод в консоль подсчитанного значения а.
     return 0; //возвращаемое значение функции. Main всегда возвращает в точку выхода функции.
     } //
-        
+
 ### Циклический вывод значения переменной в консоль  
-        
+
     #include <stdio.h> // STandardInputOutput — стандартная библиотека ввода вывода.
     #include <stdlib.h> // STandardLIBrary — cтандартная библиотека для Си.
     int main()
@@ -63,9 +66,9 @@
     return 0;
     }
 
-
 ### Пузырьковая сортировка
-```
+
+'''
 arr = [-2, 45, 0, 11, -9]
 
 print("Начальный массив: ")
@@ -88,9 +91,10 @@ while i > 0:
 
 print("Конечный массив: ")
 print(arr)
-```
+'''
 
 ### Сортировка по ведрам
+
 ```
 arr = [11, 9, 21, 8, 17, 19, 13, 1, 24, 12]
 arr_sorted = []
@@ -107,7 +111,6 @@ bucket_arr = []
 
 print("Начальный массив:")
 print(arr)
-
 
 for i in range(int(bucket_count)):
     bucket_arr.append([])
@@ -135,8 +138,21 @@ print(arr_sorted)
 ```
 
 ## Task
+
 * [0](https://exam.sberbank-school.ru/atdata/Report/b2c45b7c-690b-4162-bb6a-549829f42d82)
 * [1](https://exam.sberbank-school.ru/atdata/Report/5f7073f1-513d-4fb3-84df-e290299617d6)
 * [2](https://exam.sberbank-school.ru/atdata/Report/ebaf3ce2-48cb-4738-8e4d-9c33fd05c378)
 * [3](https://exam.sberbank-school.ru/atdata/Report/40cb13e1-7caf-496f-bcf8-1de80a14631c)
 * [4](https://exam.sberbank-school.ru/atdata/Report/f27e9bb4-0b17-4ed7-8f1a-63432dda14de)
+
+## temp
+
+
+
+
+
+
+* <https://github.com/zero-equals-false/node-desktop-app-template>
+* <https://initialcommit.com/blog/create-a-node-js-desktop-application-with-electron-bootstrap-and-express>
+* <https://github.com/zero-equals-false/node-desktop-application-example>
+

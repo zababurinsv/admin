@@ -52,54 +52,82 @@ module.exports = {
         link: '/guide/',
       },
       {
-        text: 'Monopoly',
-        link: '/monopoly/',
+        text: 'Game',
+        ariaLabel: 'Game Menu',
+        items: [
+          {
+            text: 'Universe',
+            link: '/universe/'
+          },
+          {
+            text: 'Monopoly',
+            link: '/monopoly/',
+          }
+        ]
       },
       {
-        text: 'Words',
-        link: '/words/',
+        text: 'App',
+        ariaLabel: 'App Menu',
+        items: [
+          {
+            text: 'API',
+            link: '/api/'
+          },
+          {
+            text: 'Words',
+            link: '/words/',
+          }
+        ]
       },
       {
-        text: 'API',
-        link: '/api/'
-      },
-      {
-        text: 'RSS',
-        link: '/rss/',
-      },
-      {
-        text: 'Moderators',
-        link: '/moderators/',
-      },
-      {
-        text: 'Universe',
-        link: '/universe/'
-      },
-      {
-        text: 'Source',
-        link: '/source/'
+        text: 'Org',
+        ariaLabel: 'Org Menu',
+        items: [
+          {
+            text: 'Moderators',
+            link: '/moderators/',
+          },
+          {
+            text: 'RSS',
+            link: '/rss/',
+          },
+          {
+            text: 'Source',
+            link: '/source/'
+          },
+          {
+            text: 'Task',
+            link: '/task/',
+          }
+        ]
       },
       {
         text: 'Biosphere',
         link: 'https://zababurinsv.github.io/Michurin/'
+      },
+      {
+        text: 'Languages',
+        ariaLabel: 'Language Menu',
+        items: [
+          { text: 'De', link: '/language/de/' },
+          { text: 'Ru', link: '/language/ru/' }
+        ]
       }
     ],
     sidebar: {
       '/guide/': [
         {
           title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
+          collapsable: true,
+          sidebarDepth: 3,
+          children: ['']
         }
       ],
       '/api/': [
         {
           title: 'api',
           collapsable: true,
-          sidebarDepth: 2,
+          sidebarDepth: 3,
           children: ['','ssr']
         }
       ],
@@ -107,7 +135,7 @@ module.exports = {
         {
           title: 'Universe',
           collapsable: true,
-          sidebarDepth: 2,
+          sidebarDepth: 3,
           children: ['']
         }
       ],
@@ -115,37 +143,55 @@ module.exports = {
         {
           title: 'Biosphere',
           collapsable: true,
-          sidebarDepth: 2,
+          sidebarDepth: 3,
           children: ['']
         }
       ],
       '/words/': [
         {
           title: 'Words',
+          collapsable: true,
+          sidebarDepth: 3,
           children: ['russian','english']
         }
       ],
       '/rss/': [
         {
           title: 'RSS',
+          collapsable: true,
+          sidebarDepth: 3,
           children: ['']
         }
       ],
       '/moderators/': [
         {
           title: 'Moderators',
+          collapsable: true,
+          sidebarDepth: 3,
           children: ['']
         }
       ],
       '/source/': [
         {
           title: 'Source',
+          collapsable: true,
+          sidebarDepth: 3,
+          children: ['']
+        }
+      ],
+      '/task/': [
+        {
+          title: 'Task',
+          collapsable: true,
+          sidebarDepth: 3,
           children: ['']
         }
       ],
       '/monopoly/': [
         {
           title: 'City',
+          collapsable: true,
+          sidebarDepth: 3,
           children: [
             'gray',
             'cyan',
@@ -158,20 +204,28 @@ module.exports = {
         },
         {
           title: 'Railway',
+          collapsable: true,
+          sidebarDepth: 3,
           children: ['railway__north','railway__east','railway__south','railway__west' ]
         },
         {
           title: 'Cards',
+          collapsable: true,
+          sidebarDepth: 3,
           children: ['cards__chance','cards__comunity']
         },
         {
           title: 'Dice',
+          collapsable: true,
+          sidebarDepth: 3,
           children: ['dice']
         }
       ],
       '/lang/': [
         {
           title: 'Lang',
+          collapsable: true,
+          sidebarDepth: 3,
           children: ['']
         }
       ]
