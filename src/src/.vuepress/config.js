@@ -109,8 +109,8 @@ module.exports = {
         text: 'Languages',
         ariaLabel: 'Language Menu',
         items: [
-          { text: 'De', link: '/language/de/' },
-          { text: 'Ru', link: '/language/ru/' }
+          { text: 'Deutsch', link: '/language/de/' },
+          { text: 'Russian', link: '/language/ru/' }
         ]
       }
     ],
