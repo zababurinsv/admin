@@ -176,7 +176,7 @@ module.exports = {
           title: 'Source',
           collapsable: true,
           sidebarDepth: 3,
-          children: ['']
+          children: ['', 'py']
         }
       ],
       '/task/': [
