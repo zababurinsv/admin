@@ -5,7 +5,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'C 8 Марта !!!',
+  title: 'ORG',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
