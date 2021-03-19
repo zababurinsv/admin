@@ -1,10 +1,7 @@
 # Source
-
 [[toc]]
 
-## Src
-
-* [source](https://zababurinsv.github.io/src/)
+## [module[(Core)index](https://zababurinsv.github.io/src/)]
 
 ## Environment
 
