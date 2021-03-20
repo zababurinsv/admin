@@ -84,8 +84,8 @@ module.exports = {
         ariaLabel: 'Org Menu',
         items: [
           {
-            text: 'Moderators',
-            link: '/moderators/',
+            text: 'Moderator',
+            link: '/moderator/',
           },
           {
             text: 'RSS',
