@@ -18,6 +18,7 @@
 * [py_teaches_1](https://partner.sberbank-school.ru/programs/11907/item/460859)
 * [sql_install](https://docs.microsoft.com/ru-ru/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver15)
 * [pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html)
+* [tensorflow](https://www.tensorflow.org/js/tutorials)
 
 ### Вывод в консоль сообщения "Hello, World!"
 
