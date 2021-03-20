@@ -104,14 +104,6 @@ module.exports = {
       {
         text: 'Biosphere',
         link: 'https://zababurinsv.github.io/Michurin/'
-      },
-      {
-        text: 'Languages',
-        ariaLabel: 'Language Menu',
-        items: [
-          { text: 'Deutsch', link: '/language/de/' },
-          { text: 'Russian', link: '/language/ru/' }
-        ]
       }
     ],
     sidebar: {

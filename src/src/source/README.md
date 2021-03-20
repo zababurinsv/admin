@@ -1,7 +1,7 @@
 # Source
 [[toc]]
 
-## [module[(Core)index](https://zababurinsv.github.io/src/)]
+## module[[(Core)index](https://zababurinsv.github.io/src/)][test]
 
 ## Environment
 
@@ -20,6 +20,7 @@
 * [pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html)
 * [tensorflow](https://www.tensorflow.org/js/tutorials)
 
+[test]:(https://www.onlinegdb.com/online_c_compiler)
 ### Вывод в консоль сообщения "Hello, World!"
 
     #include <stdio.h> // STandardInputOutput — стандартная библиотека ввода вывода.
