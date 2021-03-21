@@ -3,6 +3,12 @@
 
 ## module[[(Core)index](https://zababurinsv.github.io/src/)][test]
 
+## module[[(Git)crud](https://github.com/)][repo]
+ * remove
+   * git branch -D `<repo>`
+   * git push origin --delete `<banch>`
+
+
 ## Environment
 
 * [c_compiler](https://www.onlinegdb.com/online_c_compiler)

@@ -102,6 +102,10 @@ module.exports = {
         ]
       },
       {
+        text: 'unpkg',
+        link: '/unpkg/',
+      },
+      {
         text: 'Biosphere',
         link: 'https://zababurinsv.github.io/Michurin/'
       }
@@ -145,6 +149,14 @@ module.exports = {
           collapsable: true,
           sidebarDepth: 3,
           children: ['russian','english']
+        }
+      ],
+      '/unpkg/': [
+        {
+          title: 'unpkg',
+          collapsable: true,
+          sidebarDepth: 3,
+          children: ['']
         }
       ],
       '/rss/': [
