@@ -1,3 +1,3 @@
 # Moderator
 
-<moderator />
+<moderator class="s__main" />

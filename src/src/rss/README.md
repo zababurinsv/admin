@@ -1,3 +1,3 @@
 # RSS
 
-<rss />
+<rss class="s__main" />
