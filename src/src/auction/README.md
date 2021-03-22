@@ -1,3 +1,3 @@
 # Auction
 
-<auction class="s_main" />
+<auction class="s__main" />

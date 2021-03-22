@@ -1,3 +1,3 @@
 # Google Github
 
-<google-github class="s_main" />
+<google-github class="s__main" />

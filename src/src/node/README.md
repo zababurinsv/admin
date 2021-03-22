@@ -1,18 +1,18 @@
 # Modules Node
 
 ## Org
-<org class="s_main" />
+<org class="s__main" />
 
 ## Mongo
-<mongo class="s_main" />
+<mongo class="s__main" />
 
 ## News
-<feed class="s_main" />
+<feed class="s__main" />
 
 ## Account
-<account class="s_main" />
+<account class="s__main" />
 
 ## WebDav
-<webdav-node class="s_main" />
+<webdav-node class="s__main" />
 
 

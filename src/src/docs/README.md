@@ -1,3 +1,3 @@
 # Docs
 
-<docs class="s_main" />
+<docs class="s__docs" />
