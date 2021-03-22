@@ -110,6 +110,10 @@ module.exports = {
         link: '/auction/',
       },
       {
+        text: 'node',
+        link: '/node/',
+      },
+      {
         text: 'webdav',
         link: '/webdav/',
       },
@@ -150,6 +154,14 @@ module.exports = {
       '/post/': [
         {
           title: 'Post',
+          collapsable: true,
+          sidebarDepth: 3,
+          children: ['']
+        }
+      ],
+      '/node/': [
+        {
+          title: 'Nodes',
           collapsable: true,
           sidebarDepth: 3,
           children: ['']
