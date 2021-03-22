@@ -114,6 +114,10 @@ module.exports = {
         link: '/node/',
       },
       {
+        text: 'google',
+        link: '/google/',
+      },
+      {
         text: 'webdav',
         link: '/webdav/',
       },
