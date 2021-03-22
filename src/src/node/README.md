@@ -1,4 +1,4 @@
-# Nodes
+# Modules Node
 
 ## Org
 <org class="s_main" />
@@ -13,6 +13,6 @@
 <account class="s_main" />
 
 ## WebDav
-<webdav-node class="s_main />
+<webdav-node class="s_main" />
 
 
