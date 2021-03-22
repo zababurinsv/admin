@@ -8,6 +8,8 @@
    * git branch -D `<repo>`
    * git push origin --delete `<banch>`
 
+  * ~/.bashrc
+  * ~/.profile
 
 ## Environment
 

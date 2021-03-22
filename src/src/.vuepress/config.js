@@ -102,6 +102,10 @@ module.exports = {
         ]
       },
       {
+        text: 'auction',
+        link: '/auction/',
+      },
+      {
         text: 'unpkg',
         link: '/unpkg/',
       },
