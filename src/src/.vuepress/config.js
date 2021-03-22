@@ -110,6 +110,10 @@ module.exports = {
         link: '/auction/',
       },
       {
+        text: 'webdav',
+        link: '/webdav/',
+      },
+      {
         text: 'unpkg',
         link: '/unpkg/',
       },
@@ -154,6 +158,14 @@ module.exports = {
       '/biosphere/': [
         {
           title: 'Biosphere',
+          collapsable: true,
+          sidebarDepth: 3,
+          children: ['']
+        }
+      ],
+      '/webdav/': [
+        {
+          title: 'WebDav',
           collapsable: true,
           sidebarDepth: 3,
           children: ['']
