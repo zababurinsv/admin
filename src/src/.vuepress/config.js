@@ -102,6 +102,10 @@ module.exports = {
         ]
       },
       {
+        text: 'post',
+        link: '/post/',
+      },
+      {
         text: 'auction',
         link: '/auction/',
       },
@@ -134,6 +138,14 @@ module.exports = {
       '/universe/': [
         {
           title: 'Universe',
+          collapsable: true,
+          sidebarDepth: 3,
+          children: ['']
+        }
+      ],
+      '/post/': [
+        {
+          title: 'Post',
           collapsable: true,
           sidebarDepth: 3,
           children: ['']
