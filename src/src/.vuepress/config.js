@@ -102,6 +102,10 @@ module.exports = {
         ]
       },
       {
+        text: 'docs',
+        link: '/docs/',
+      },
+      {
         text: 'post',
         link: '/post/',
       },
