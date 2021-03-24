@@ -154,7 +154,7 @@ print(arr_sorted)
 
 ## temp
 
-
+* [](https://blog.soros.org.ua/about/)
 
 
 

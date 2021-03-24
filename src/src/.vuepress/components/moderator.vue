@@ -10,9 +10,9 @@ export default {
     let script = document.createElement('script')
     script.type = 'module'
     script.src = '/static/html/components/page-external/page-external.mjs'
-    // let url = (location.hostname === 'localhost')?'http://localhost:5000':'https://tunnel-reverse.herokuapp.com'
-    let url = 'https://zababurinsv.github.io/moderator/'
-    this.$el.insertAdjacentHTML('beforeend',`<page-external data-url=${url} data-height=60></page-external>`)
+    let url = (location.hostname === 'localhost')?'http://localhost:9876':'https://zababurinsv.github.io'
+    url = `${url}/moderator/import`
+    this.$el.insertAdjacentHTML('beforeend',`<page-external data-url=${url} data-height=100></page-external>`)
     this.$el.appendChild(script)
   },
   methods: {
@@ -48,8 +48,8 @@ export default {
 }
 </script>
 <style>
-.s__main {
+.s__moderator {
   display: flex;
-  height: 60vh;
+  height: 100vh;
 }
 </style>
