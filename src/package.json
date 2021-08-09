@@ -1,5 +1,5 @@
 {
-  "name": "system",
+  "name": "@orbit/admin",
   "version": "0.0.1",
   "description": "docs",
   "main": "index.js",
