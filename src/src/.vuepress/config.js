@@ -17,6 +17,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
+    // ['base', { "href": 'https://zababurinsv.github.io/admin/'}],
     ['meta', { "http-equiv": 'content-type', content: 'text/html; charset=utf-8' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
@@ -240,6 +241,12 @@ module.exports = {
         }
       ],
       '/monopoly/': [
+        {
+          title: 'Board',
+          collapsable: true,
+          sidebarDepth: 3,
+          children: ['']
+        },
         {
           title: 'City',
           collapsable: true,
